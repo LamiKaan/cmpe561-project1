@@ -26,9 +26,10 @@ scratchpad/
 **/*.pkl
 **/*.joblib
 # Ignore everything inside data/
-corpora/*
+corpora/**
 # But keep the subdirectory itself
 !corpora/.gitkeep
+!corpora/**/
 !corpora/**/.gitkeep
 # Ignore everything inside quickdraw_subset_np
 models/
