@@ -1,3 +1,39 @@
 "./Application Project 1.pdf"
 "./ts_corpus_ver_2-export.txt"
+# macOS system files
+.DS_Store
+# VS Code settings
+.vscode/
 .idea/
+.idea
+**/.idea/
+**/Datasets/
+.ipynb_checkpoints/
+Example_3/
+# Virtual environment
+venv/
+# Python bytecode
+**/__pycache__/
+# Directory containing the test/draft files
+scratchpad/
+# PDF and Mac Pages files
+*.pdf
+*.pages
+*.xlsx
+*.docx
+**/*.zip
+*.key
+**/*.pkl
+**/*.joblib
+# Ignore everything inside data/
+corpora/*
+# But keep the subdirectory itself
+!corpora/.gitkeep
+!corpora/**/.gitkeep
+# Ignore everything inside quickdraw_subset_np
+models/
+notebooks/
+classification_draft_1.ipynb
+DRAFT_1.ipynb
+DRAFT_2.ipynb
+
